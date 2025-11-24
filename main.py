@@ -1,7 +1,6 @@
 
 
-import streamlit as st
-import requests
+
 
 import streamlit as st
 import requests
@@ -80,7 +79,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-api_url = "http://localhost:8000"
+api_url = "https://leaf-disease-detection-h805.onrender.com"
 
 col1, col2 = st.columns([1, 2])
 with col1:
