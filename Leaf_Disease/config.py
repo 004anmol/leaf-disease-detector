@@ -1,5 +1,5 @@
 """
-Configuration module for Leaf Disease Detection System.
+Configuration module for Leaf_Disease Detection System.
 
 This module provides centralized configuration management for the leaf disease
 detection application. It handles API keys, model parameters, logging settings,
@@ -22,7 +22,7 @@ from typing import Optional
 @dataclass
 class AppConfig:
     """
-    Application configuration settings for the Leaf Disease Detection System.
+    Application configuration settings for the Leaf_Disease Detection System.
 
     This dataclass encapsulates all configuration parameters required for the
     application to function properly. It provides a centralized way to manage

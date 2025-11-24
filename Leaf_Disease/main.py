@@ -43,7 +43,7 @@ class DiseaseAnalysisResult:
 
 class LeafDiseaseDetector:
     """
-    Advanced Leaf Disease Detection System using AI Vision Analysis.
+    Advanced Leaf_Disease Detection System using AI Vision Analysis.
 
     This class provides comprehensive leaf disease detection capabilities using
     the Groq API with Llama Vision models. It can analyze leaf images to identify
@@ -89,7 +89,7 @@ class LeafDiseaseDetector:
 
     def __init__(self, api_key: Optional[str] = None):
         """
-        Initialize the Leaf Disease Detector with API credentials.
+        Initialize the Leaf_Disease Detector with API credentials.
 
         Sets up the Groq API client and validates the API key from either
         the parameter or environment variables. Initializes logging for
@@ -110,7 +110,7 @@ class LeafDiseaseDetector:
         if not self.api_key:
             raise ValueError("GROQ_API_KEY not found in environment variables")
         self.client = Groq(api_key=self.api_key)
-        logger.info("Leaf Disease Detector initialized")
+        logger.info("Leaf_Disease Detector initialized")
 
     def create_analysis_prompt(self) -> str:
         """
@@ -321,7 +321,7 @@ def main():
     try:
         # Example usage
         detector = LeafDiseaseDetector()
-        print("Leaf Disease Detector (minimal version) initialized successfully!")
+        print("Leaf_Disease Detector (minimal version) initialized successfully!")
         print("Use analyze_leaf_image_base64() method with base64 image data.")
 
     except Exception as e:

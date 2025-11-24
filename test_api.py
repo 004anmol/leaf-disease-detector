@@ -1,5 +1,5 @@
 """
-API Test Script for Leaf Disease Detection
+API Test Script for Leaf_Disease Detection
 ==========================================
 
 This script tests the FastAPI endpoints to ensure they work correctly.
@@ -52,7 +52,7 @@ def test_root_endpoint(api_url: str = "http://localhost:8000"):
 
 
 if __name__ == "__main__":
-    print("Leaf Disease Detection API Test")
+    print("Leaf_Disease Detection API Test")
     print("=" * 40)
 
     api_url = "http://localhost:8000"

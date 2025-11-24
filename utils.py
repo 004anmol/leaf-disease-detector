@@ -1,5 +1,5 @@
 """
-Base64 Image Test for Leaf Disease Detection
+Base64 Image Test for Leaf_Disease Detection
 ===========================================
 
 This script demonstrates how to send base64 image data directly to the detector.
@@ -10,8 +10,8 @@ import sys,os
 import base64
 from pathlib import Path
 
-# Add the Leaf Disease directory to Python path
-sys.path.insert(0, str(Path(__file__).parent / "Leaf Disease"))
+# Add the Leaf_Disease directory to Python path
+sys.path.insert(0, str(Path(__file__).parent / "Leaf_Disease"))
 
 try:
     from main import LeafDiseaseDetector

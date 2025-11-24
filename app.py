@@ -8,7 +8,7 @@ from utils import convert_image_to_base64_and_test, test_with_base64_data
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Leaf Disease Detection API", version="1.0.0")
+app = FastAPI(title="Leaf_Disease Detection API", version="1.0.0")
 
 @app.post('/disease-detection-file')
 async def disease_detection_file(file: UploadFile = File(...)):
@@ -42,7 +42,7 @@ async def disease_detection_file(file: UploadFile = File(...)):
 async def root():
     """Root endpoint providing API information"""
     return {
-        "message": "Leaf Disease Detection API",
+        "message": "Leaf_Disease Detection API",
         "version": "1.0.0",
         "endpoints": {
             "disease_detection_file": "/disease-detection-file (POST, file upload)"
